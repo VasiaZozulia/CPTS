@@ -18,4 +18,4 @@ nxc smb <DC> -u <u> -p <p> --users
 nxc smb <subnet>/24 -u <u> -p <p>
 ```
 **Аналіз BloodHound:** шукай shortest path to DA, ACL-abuse, kerberoastable.
-**Зв'язки:** [[Kerberoast-ASREP]] · [[Lateral-Movement]] · [[DCSync-Tickets]]
+**Зв'язки:** [[Kerberoast-ASREP]] · [[Lateral-Movement]] · [[DCSync-Tickets]] · [[ACL-Abuse]]

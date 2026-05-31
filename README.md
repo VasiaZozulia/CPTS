@@ -15,7 +15,10 @@
 - **Звіт = половина успіху.** Веди нотатки так, ніби пишеш звіт уже зараз.
 
 ## Карта вольту
-- `00-Methodology` — чеклисти, тайм-менеджмент, шаблон нотатки
+- `00-Methodology` — чеклисти, тайм-менеджмент, шаблон нотатки, **Bypasses** (AMSI/AppLocker)
 - `01-Recon` → `06-Pivoting` — фази атаки
+  - `03-Foothold` містить: Credential-Dumping, NTLM-Relay, Password-Attacks, Shells-Payloads, File-Transfers
+  - `04-PrivEsc` містить: Linux і Windows (розширені вектори)
+  - `05-Active-Directory` містить: ACL-Abuse, Kerberoast, DCSync, Lateral-Movement, Trusts
 - `07-Reporting` — каркас звіту й бібліотека findings
 - `99-Loot` — креди, хости, scope

@@ -15,6 +15,8 @@
 - [ ] Перевірити дефолтні / слабкі креди
 - [ ] Пошук відомих вразливостей знайдених версій
 - [ ] Веб: fuzzing директорій/параметрів, форми, авторизація
+- [ ] Веб: перевірити SSRF (url=, src=, redirect=) і SSTI (template engine?)
+- [ ] Перевірити NTLM relay (SMB Signing off? → Responder + ntlmrelayx)
 - [ ] Зафіксувати точку входу і метод
 
 ## Post-exploitation (кожен хост)
@@ -24,9 +26,11 @@
 - [ ] **Перевірити нові підмережі для pivoting**
 
 ## Active Directory
-- [ ] BloodHound збір + аналіз шляхів
+- [ ] BloodHound збір + аналіз шляхів (shortest path to DA + ACL edges!)
 - [ ] Kerberoast / AS-REP roast
+- [ ] Перевірити ACL abuse (GenericAll, WriteDACL, ForceChangePassword, WriteOwner)
 - [ ] Lateral movement по знайдених кредах
+- [ ] Credential dumping на кожному compromised хості (nxc --sam --lsa)
 - [ ] Шлях до DA / DCSync
 - [ ] Перевірити trusts між доменами
 

