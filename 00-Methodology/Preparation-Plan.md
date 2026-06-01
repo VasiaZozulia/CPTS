@@ -91,4 +91,4 @@
 - [ ] Чи зрозуміло, чому саме цей вектор спрацював?
 - [ ] Чи додано новий урок у журнал слабких місць?
 
-Зв'язки: [[Attack-Lifecycle]] · [[Engagement-Checklist]] · [[Time-Management]] · [[Report-Template]]
+Зв'язки: [[Attack-Lifecycle]] · [[Engagement-Checklist]] · [[Time-Management]] · [[Report-Template]] · [[Exam-Strategy]] · [[HTB-Box-Recommendations]]
