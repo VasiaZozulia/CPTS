@@ -7,6 +7,30 @@
 - **Ризики:** немає вимірюваного графіка підготовки; не зафіксовані критерії готовності; мало місця для аналізу помилок; reporting тренується лише наприкінці, хоча на CPTS це частина бойового процесу.
 - **Фокус покращення:** кожен тиждень має давати артефакт: заповнені нотатки, відтворений ланцюг, оновлений checklist, міні-звіт або список помилок.
 
+## Gap-аналіз (станом на 2026-06-01)
+
+| Модуль CPTS | Файл у vault | Пріоритет |
+|------------|--------------|-----------|
+| File Upload Attacks | [[File-Upload-Attacks]] ✅ додано | Tier 1 |
+| Web Attacks (IDOR/XXE/Verb) | [[Web-Attacks-IDOR-XXE-Verb]] ✅ додано | Tier 1 |
+| Attacking Enterprise Networks | [[Attacking-Enterprise-Networks]] ✅ додано | Tier 1 — capstone |
+| Using Web Proxies (Burp) | [[Burp-WebProxy]] ✅ додано | Tier 3 — enabler |
+| Metasploit (post-exploitation) | [[Metasploit]] ✅ додано | Tier 3 — enabler |
+| Login Brute Forcing | частково в [[Password-Attacks]] | Tier 2 |
+| Vulnerability Assessment | немає (низький пріоритет для іспиту) | Tier 3 |
+
+**Всі критичні прогалини закрито. Vault покриває всі модулі CPTS.**
+
+### Додаткові покращення (2026-06-01)
+- [[Findings-Library]] — 15 pre-written findings з описом, impact і remediation
+- [[Practice-Log]] — трекер відпрацьованих хостів і тем
+- [[XSS]] — розширено: DOM XSS, filter bypass, CSP, blind XSS, CSRF chain
+- [[File-Inclusion-LFI-RFI]] — розширено: log poisoning, PHP wrappers, /proc, LFI→RCE методологія
+- [[Command-Injection]] — розширено: blind detection, OOB exfil, filter bypass таблиця
+- [[Ffuf-Fuzzing]] — розширено: vhost fuzzing, login brute, API fuzzing, rate limit
+- [[Common-Apps]] — розширено: повні exploit chains для Tomcat, Jenkins, WP, GitLab, Splunk, IIS, JBoss, Drupal
+- [[Time-Management]] — додано вечірній sync template + Stuck Playbook
+
 ## Принцип підготовки
 1. **Learn:** пройти тему в Academy і записати її своїми словами.
 2. **Drill:** повторити команди без підказок у lab/box.
@@ -20,7 +44,7 @@
 |---------|-------|----------------------|
 | 1 | Методологія, Nmap, service enumeration, ведення нотаток | Заповнені [[Nmap]], [[Footprinting-SMB]], [[Footprinting-NFS-DNS-etc]], [[Footprinting-SNMP]]; 3 хости пройдені тільки через checklist |
 | 2 | Web enumeration і базові web-вектори | Заповнені [[Web-Recon]], [[Ffuf-Fuzzing]], [[SQLi-SQLMap]], [[File-Inclusion-LFI-RFI]], [[Command-Injection]]; 2 web foothold з повними evidence |
-| 3 | SSRF/SSTI/XSS/common apps, file transfer, shells | Заповнені [[SSRF-SSTI]], [[XSS]], [[Common-Apps]], [[Shells-Payloads]], [[File-Transfers]]; власний payload checklist |
+| 3 | SSRF/SSTI/XSS/File Upload/IDOR/XXE/Verb, common apps, file transfer, shells | Заповнені [[SSRF-SSTI]], [[XSS]], [[File-Upload-Attacks]], [[Web-Attacks-IDOR-XXE-Verb]], [[Common-Apps]], [[Shells-Payloads]], [[File-Transfers]]; власний payload checklist |
 | 4 | Password attacks, credential reuse, attacking services, NTLM relay | Заповнені [[Password-Attacks]], [[Attacking-Services]], [[NTLM-Relay]]; таблиця creds оновлюється під час практики |
 | 5 | Linux/Windows PrivEsc і credential dumping | Заповнені [[Linux-PrivEsc]], [[Windows-PrivEsc]], [[Credential-Dumping]]; 4 privesc сценарії з командами й скрінами |
 | 6 | Active Directory enumeration, roasting, ACL abuse, lateral movement | Заповнені [[AD-Enumeration]], [[Kerberoast-ASREP]], [[ACL-Abuse]], [[Lateral-Movement]]; один AD chain описаний як narrative |
@@ -53,7 +77,7 @@
 
 ## Мінімальний набір тренувань перед бронюванням
 - [ ] 3 повні recon-сесії з нуля.
-- [ ] 3 web foothold з різними класами вразливостей.
+- [ ] 3 web foothold з різними класами вразливостей (SQLi, File Upload, IDOR/XXE).
 - [ ] 2 Linux privesc і 2 Windows privesc без готового walkthrough.
 - [ ] 1 NTLM relay або credential reuse chain.
 - [ ] 1 AD attack chain до high-value target.
