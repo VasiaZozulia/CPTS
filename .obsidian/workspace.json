@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-Methodology/Attacking-Enterprise-Networks.md",
+                "file": "00-Methodology/HTB-Box-Recommendations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Attacking-Enterprise-Networks"
+              "title": "HTB-Box-Recommendations"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-Methodology/Attacking-Enterprise-Networks.md",
+                "file": "00-Methodology/HTB-Box-Recommendations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Attacking-Enterprise-Networks"
+              "title": "Backlinks for HTB-Box-Recommendations"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-Methodology/Attacking-Enterprise-Networks.md",
+                "file": "00-Methodology/HTB-Box-Recommendations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Attacking-Enterprise-Networks"
+              "title": "Outgoing links from HTB-Box-Recommendations"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-Methodology/Attacking-Enterprise-Networks.md",
+                "file": "00-Methodology/HTB-Box-Recommendations.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Attacking-Enterprise-Networks"
+              "title": "Outline of HTB-Box-Recommendations"
             }
           }
         ]
@@ -185,27 +185,32 @@
   },
   "active": "b1adfe6184798117",
   "lastOpenFiles": [
+    "00-Methodology/Exam-Strategy.md",
+    "00-Methodology/Preparation-Plan.md",
+    "00-Methodology/Preparation-Plan.md.tmp.6597.9edcec36962b",
+    "00-Methodology/Progress-Dashboard.md.tmp.6597.8fe4522b30c6",
+    "00-Methodology/HTB-Box-Recommendations.md",
+    "00-Methodology/HTB-Box-Recommendations.md.tmp.6597.4267ea417bcd",
+    "00-Methodology/Exam-Strategy.md.tmp.6597.9789eac8897e",
+    "00-Methodology/Practice-Log.md",
+    "00-Methodology/Engagement-Checklist.md",
+    "00-Methodology/Bypasses.md",
+    "00-Methodology/Attacking-Enterprise-Networks.md",
     "00-Methodology/Attack-Lifecycle.md",
     "00-Methodology/_Command-Note-Template.md",
+    "00-Methodology/Time-Management.md",
+    "00-Methodology/Progress-Dashboard.md",
+    "00-Methodology/Progress-Dashboard.md.tmp.6597.6031f0461615",
     "README.md",
     "99-Loot/Hosts-Scope.md",
     "99-Loot/Credentials.md",
     "03-Foothold/Burp-WebProxy.md",
-    "00-Methodology/Time-Management.md",
-    "00-Methodology/Engagement-Checklist.md",
     "00-Methodology/Preparation-Plan.md.tmp.6597.6b38c0c987aa",
     "00-Methodology/Time-Management.md.tmp.6597.dd97623be577",
     "02-Web/Ffuf-Fuzzing.md.tmp.6597.82eeaed17f1d",
     "02-Web/Command-Injection.md.tmp.6597.9bc122279d4d",
     "02-Web/File-Inclusion-LFI-RFI.md.tmp.6597.eafa316ad2bf",
-    "02-Web/Common-Apps.md.tmp.6597.4f7cbec1583b",
-    "02-Web/XSS.md.tmp.6597.a4b2778d026c",
-    "00-Methodology/Practice-Log.md",
-    "00-Methodology/Practice-Log.md.tmp.6597.0f780dfc21fa",
-    "07-Reporting/Findings-Library.md.tmp.6597.d3fee691c5a1",
-    "00-Methodology/Preparation-Plan.md.tmp.6597.5f359f0539a7",
     "03-Foothold/Metasploit.md",
-    "00-Methodology/Attacking-Enterprise-Networks.md",
     "02-Web/Web-Attacks-IDOR-XXE-Verb.md",
     "02-Web/File-Upload-Attacks.md"
   ]
