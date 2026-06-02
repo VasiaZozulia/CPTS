@@ -9,13 +9,22 @@
 
 | Категорія | Виконано | Всього | % |
 |-----------|---------|--------|---|
-| Academy модулі прочитані | | 27 | |
-| Vault нотатки готові | | 27 | |
-| Теми відпрацьовані практично | | 27 | |
-| Практичні мінімуми | | 7 | |
-| Критерії готовності | | 7 | |
+| Academy модулі прочитані | | 30 | |
+| Vault нотатки готові | | 30 | |
+| Теми відпрацьовані практично | | 30 | |
+| Практичні мінімуми | | 8 | |
+| Критерії готовності | | 8 | |
 
-**Правило бронювання іспиту:** всі практичні мінімуми ✅ + всі критерії готовності ✅
+**Правило бронювання іспиту:** G2 practice coverage >= 80% + всі практичні мінімуми ✅ + всі критерії готовності ✅ + 1 повний report practice.
+
+## Readiness gates
+
+| Gate | Поточний стан | Потрібно для бронювання |
+|------|---------------|--------------------------|
+| G1 — Coverage | `__ / 30` модулів A+V | `30 / 30` |
+| G2 — Reproduction | `__ / 30` тем практично | `24 / 30` або більше |
+| G3 — Chaining | `__ / 5` повних chains | `5 / 5` |
+| G4 — Reporting | `__ / 3` report drills | 2 mini reports + 1 full report |
 
 ---
 
@@ -31,7 +40,7 @@
 | 2 | Network Enumeration with Nmap | [ ] | ✅ | [ ] | [[Nmap]] | |
 | 3 | Footprinting | [ ] | ✅ | [ ] | [[Footprinting-SMB]] [[Footprinting-NFS-DNS-etc]] [[Footprinting-SNMP]] | |
 | 4 | Information Gathering – Web Edition | [ ] | ✅ | [ ] | [[Web-Recon]] [[Ffuf-Fuzzing]] | |
-| 5 | Vulnerability Assessment | [ ] | — | [ ] | (використовуй searchsploit / nessus / nmap NSE) | |
+| 5 | Vulnerability Assessment | [ ] | ✅ | [ ] | [[Vulnerability-Assessment]] | |
 
 ### Блок 2 — Foothold і Transfers
 
@@ -96,7 +105,7 @@
 | 5 | Linux/Windows PrivEsc, Credential Dumping | `__.__` | [ ] |
 | 6 | AD Enum, Kerberoasting, ACL, Lateral Movement | `__.__` | [ ] |
 | 7 | Pivoting, Trusts, DCSync, Enterprise Networks | `__.__` | [ ] |
-| 8 | Mock exam (3 дні) + повний звіт (2 дні) | `__.__` | [ ] |
+| 8 | Mock exam (3 дні) + report пишеться щодня | `__.__` | [ ] |
 
 ---
 
@@ -124,6 +133,7 @@
 - [ ] Маєш один повний звіт з executive summary, findings і attack chain narrative
 - [ ] Всі критичні команди знаходяться у vault за 10-20 секунд
 - [ ] Після 90 хвилин без прогресу вмієш перемкнутись без втрати контексту (Stuck Playbook)
+- [ ] Для кожного finding знаєш, які proof/screenshots потрібні reviewer'у
 
 ---
 
@@ -161,7 +171,7 @@
 ## Швидкі посилання
 
 **Методологія:** [[Attack-Lifecycle]] · [[Engagement-Checklist]] · [[Bypasses]] · [[Attacking-Enterprise-Networks]] · [[Exam-Strategy]] · [[HTB-Box-Recommendations]]
-**Recon:** [[Nmap]] · [[Web-Recon]] · [[Ffuf-Fuzzing]] · [[Footprinting-SMB]]
+**Recon:** [[Nmap]] · [[Vulnerability-Assessment]] · [[Web-Recon]] · [[Ffuf-Fuzzing]] · [[Footprinting-SMB]]
 **Web:** [[SQLi-SQLMap]] · [[File-Inclusion-LFI-RFI]] · [[File-Upload-Attacks]] · [[Command-Injection]] · [[XSS]] · [[SSRF-SSTI]] · [[Web-Attacks-IDOR-XXE-Verb]] · [[Common-Apps]]
 **Foothold:** [[Shells-Payloads]] · [[Password-Attacks]] · [[NTLM-Relay]] · [[Attacking-Services]] · [[Burp-WebProxy]] · [[Metasploit]]
 **PrivEsc:** [[Linux-PrivEsc]] · [[Windows-PrivEsc]] · [[Credential-Dumping]]

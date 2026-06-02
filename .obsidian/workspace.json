@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "aecc35b35d3567fd",
+        "id": "2d5a5b92ea5a4f69",
         "type": "tabs",
         "children": [
           {
-            "id": "b1adfe6184798117",
+            "id": "d6321cc0ce4200b7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-Methodology/HTB-Box-Recommendations.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "HTB-Box-Recommendations"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-Methodology/HTB-Box-Recommendations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for HTB-Box-Recommendations"
+              "title": "Backlinks"
             }
           },
           {
@@ -113,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-Methodology/HTB-Box-Recommendations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from HTB-Box-Recommendations"
+              "title": "Outgoing links"
             }
           },
           {
@@ -156,13 +150,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-Methodology/HTB-Box-Recommendations.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of HTB-Box-Recommendations"
+              "title": "Outline"
             }
           }
         ]
@@ -183,13 +176,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "b1adfe6184798117",
+  "active": "822a9a0afb052f67",
   "lastOpenFiles": [
+    "Untitled.canvas",
+    "02-Web/Command-Injection.md",
+    "Untitled",
+    "00-Methodology/HTB-Box-Recommendations.md",
     "00-Methodology/Exam-Strategy.md",
     "00-Methodology/Preparation-Plan.md",
     "00-Methodology/Preparation-Plan.md.tmp.6597.9edcec36962b",
     "00-Methodology/Progress-Dashboard.md.tmp.6597.8fe4522b30c6",
-    "00-Methodology/HTB-Box-Recommendations.md",
     "00-Methodology/HTB-Box-Recommendations.md.tmp.6597.4267ea417bcd",
     "00-Methodology/Exam-Strategy.md.tmp.6597.9789eac8897e",
     "00-Methodology/Practice-Log.md",
@@ -209,7 +205,6 @@
     "00-Methodology/Time-Management.md.tmp.6597.dd97623be577",
     "02-Web/Ffuf-Fuzzing.md.tmp.6597.82eeaed17f1d",
     "02-Web/Command-Injection.md.tmp.6597.9bc122279d4d",
-    "02-Web/File-Inclusion-LFI-RFI.md.tmp.6597.eafa316ad2bf",
     "03-Foothold/Metasploit.md",
     "02-Web/Web-Attacks-IDOR-XXE-Verb.md",
     "02-Web/File-Upload-Attacks.md"

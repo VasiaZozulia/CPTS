@@ -107,22 +107,23 @@
 ### День 10 — Buffer
 - Не плануй нічого критичного
 - Фінальна перевірка звіту
-- Відпочинок перед reporting window
+- Буфер перед export/upload
 
 ---
 
-## Reporting Window (10 днів) — стратегія
+## Reporting strategy під час 10-денного іспиту
+
+Окремого 10-денного періоду для звіту після lab не плануй. Від моменту старту CPTS таймер іде до upload report, тому звіт живе поруч з exploitation.
 
 ### Структура часу
-| Дні | Задача |
-|-----|--------|
-| 1-2 | Executive Summary + всі Findings (чернетка) |
-| 3-4 | Attack Narrative (повний ланцюг від recon до DA) |
-| 5   | Пауза. Прочитай весь звіт холодним поглядом |
-| 6-7 | Правки: технічна точність, мова, форматування |
-| 8   | Фінальна перевірка, export PDF |
-| 9   | Буфер |
-| 10  | Здача |
+| Дні | Reporting задача |
+|-----|------------------|
+| 1 | Створити report skeleton, hosts table, scope, evidence folders |
+| 2-4 | Додавати draft finding у день підтвердження вразливості |
+| 5-6 | Писати attack narrative паралельно з pivot/lateral movement |
+| 7-8 | Закрити gaps у screenshots, commands, affected assets, remediation |
+| 9 | Повна чернетка PDF: перечитати як reviewer |
+| 10 | Фінальний export/upload, тільки критичні правки |
 
 ### Executive Summary — шаблон думки
 Відповідай на 4 питання:
